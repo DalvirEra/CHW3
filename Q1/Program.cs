@@ -36,6 +36,5 @@ int digitofint(int number,int place){
         step++;
     }
     number = number%10;
-    Console.WriteLine("Итог " + number);
     return number;
 }
